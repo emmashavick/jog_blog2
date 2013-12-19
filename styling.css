@@ -1,0 +1,84 @@
+body { 
+				text-align: center;
+				background-image: url('backing.jpeg');
+				background-size: cover;
+				background-repeat: no-repeat;
+				font-family: helvetica;
+			}
+	.heading {
+	
+		background: url('British.jpeg');
+		position: relative;
+		min-height: 600px;
+		font height: 200px;
+		border-radius: 10px;
+		margin-bottom: 0;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 500px
+		
+		 }
+
+	
+
+			h1#title { 
+				font-size: 40px;
+				color: rgba(255, 0, 0, 1);
+				font-style: bold;
+				padding: 20px 0 0 0;
+				font-family: 'Vast Shadow', cursive;
+				margin-bottom: 1em;
+			}
+
+			p { color: rgba(255, 255, 255, 1);
+				text-align: center;
+				padding: 0px 50px 5px 50px;
+				font-style: bold;
+				font-size: 16px;
+				font-family: verdana;
+				line-height: 25px;
+				 }
+
+			.link {
+				position: absolute;
+				bottom: 0;
+				color: rgba(255, 100, 100, 1);
+				text-align: left;			
+
+			}
+
+			h2 {
+				color: rgba(255, 100, 100, 1);
+				text-align: center;
+				font-size: 26px;
+				line-height: 20px;
+				font-family: cursive;	
+			}
+
+			input { 
+				border: 0;
+				padding: 10px;
+				font-size: 18px; 
+			}
+
+			input[type="submit"] {
+				color: rgba(255, 255, 255, 1);
+				background: rgba(0, 0, 0, 1);
+			}
+
+			button {background-color: lightblue;
+					font-size:14px;
+					padding: 5px;
+					border: solid;
+					border-radius: 5px}
+
+			input {border: solid;
+					padding: 5px;
+					border-radius: 5px
+					background-color: lightblue;
+					text-color: black;}
+
+			    @media (max-width: 500px) {body {background: pink;}
+      h1 { font-size: 36px;}
+      li {display: block; 
+          padding: 5px;}
