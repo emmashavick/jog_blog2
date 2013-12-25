@@ -8,6 +8,7 @@ body {
 		}
 .img-circle {
 		max-width: 200px;
+		float: right;
 }
 
 .row { padding-left: 20px;}
