@@ -32,13 +32,16 @@ color: rgba(1, 1, 1, 0.8);
 .sponsor{
 	padding-left: 20px;
 	padding-right: 20px;
-	max-width: 1300px;
+	padding-bottom: 20px;
+	max-width: 2000px;
 	text-align: justify;
 }
 
 .feet {
 	border-radius: 10px;
 	padding-left: 20px;
+	padding-right: 20px;
+	float: left;
 }
 
 .image {max-width: 600px;
@@ -60,6 +63,7 @@ h1#title {
 				padding: 40px 0 0 0;
 				font-family: 'Vast Shadow', cursive;
 				margin-bottom: 1em;
+				
 			}
 body {
 	padding: 0;
