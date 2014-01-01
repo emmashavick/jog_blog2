@@ -1,36 +1,35 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>26 Miles to go</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<link rel="stylesheet" type="text/css" href="stylesheet.css">
-		<link rel="stylesheet" type="text/css" href="bootstrap.css">
-		<link href='http://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
 
-	</head> 
+<head>
 
-	<body> 
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link rel="stylesheet" type="text/css" href="bootstrap.css">
 
-<nav class="navbar navbar-default navbar-static-top" role="navigation">
-			<a class="navbar-brand" href="./index.html">Home</a>
-			<a class="navbar-brand" href="./sponsorship.html">Sponsorship</a>
-			<a class="navbar-brand" href="./support.html">Get in touch</a>
-		</nav>
+</head>
 
-		<div><h1 id="title">My Journey to the Finish Line...</h1></div>
+<body>
+<h1>My journey to the finish line...</h1>
+<h2>26 miles to go</h2>
 
-<div class="row">
-  <div class="col-md-8"> Hello! I'm Emma, this is me >>
-
-  	<img src="./emma.jpg" alt="me" class="img-circle">
-and this is my site all about training for the London Marathon! 
-
-  </div>
-  <div class="col-md-4"><img src="./run.jpeg" class="feet"></div>
-  
+<div class="first">
+  <p>welsh onion soko <span class="price">$14</span><br />
+  <small>Mustard sierra leone bologi kale chard beet greens black-eyed pea sorrel amaranth garlic tigernut spring onion summer purslane asparagus lentil. </small></p>
 </div>
 
+<div class="second">
+  <p>pastrami boudin tongue <span class="price">$22</span><br />
+  <small>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl. Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</small></p>
+</div>
+  
+<div class="dessert">
+  <p>fruitcake marzipan pudding dragee <span class="price">$8</span><br />
+  <small>Lollipop tart cotton candy jelly-o carrot cake apple pie cupcake. Jelly-o bear claw ice cream candy canes.</small></p>
+</div>
 
-
-</body>
-</html>
+<script>
+$('div').on('click', function() {$(this).toggleClass('show-description');});
+  </script>
+ </body>
